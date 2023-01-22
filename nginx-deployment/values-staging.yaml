@@ -1,0 +1,12 @@
+namespace: staging
+
+replicaCount: 1
+
+image:
+  tag: 1.18.0
+
+resources:
+  memory: "128Mi"
+
+configmapCustomData:
+  version: 1.18.0
